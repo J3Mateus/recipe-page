@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'YoungSerif-Regular' ;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Regular' ;
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+body {
+    background: #f3e4d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'YoungSerif-Regular',sans-serif;
+}
+
+h2 {
+    font-family: 'YoungSerif-Regular',sans-serif;
+}
+
+p {
+    font-family: 'Outfit-Regular',sans-serif;
+}
+
+li {
+    font-family: 'Outfit-Regular',sans-serif;
+    margin: 1rem
+}
+
+main {
+    width: 50rem;
+    background: #fffefe;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+header {
+    margin:1rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+section {
+    margin: 1rem;
+}
+
+img {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+hr {
+    margin:1rem ;
+}
+
+section h2 {
+    color: #683048;
+}
+
+.table-name {
+    font-family: 'Outfit-Regular',sans-serif;
+}
+
+.table-value {
+    text-decoration: none;
+    font-family: 'Outfit-Regular',sans-serif;
+    color: #683048;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+border-bottom: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+
+#preparation-time {
+    background: #fef6fc;
+    width:710px;
+    height:100%;
+    padding: 0.25rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+}
+
